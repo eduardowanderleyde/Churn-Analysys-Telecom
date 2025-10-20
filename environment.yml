@@ -1,0 +1,20 @@
+name: jupyter-data-engineering
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pandas=2.3.3
+  - numpy=2.3.3
+  - matplotlib
+  - seaborn
+  - jupyter
+  - notebook
+  - jupyterlab
+  - sqlalchemy=2.0.43
+  - requests=2.32.5
+  - openpyxl=3.1.5
+  - pip
+  - pip:
+    - fastapi==0.118.0
+    - python-dotenv==1.1.1
